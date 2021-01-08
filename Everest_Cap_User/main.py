@@ -8,3 +8,5 @@ print(data['region'])
 
 
 search_stock('TSLA')
+
+#Can be used to record ip addresses of the users who sign up

@@ -6,7 +6,7 @@ class search_stock:
   def __init__(self, stock_symbol):
       stock_symbol = stock_symbol.upper()
       base_url  = "https://www.alphavantage.co/query?"
-      key = "6AWR7CK9RZWJ1NOJ"
+      key = ""
       query_params = {"function": "TIME_SERIES_DAILY_ADJUSTED" , "symbol": stock_symbol, "apikey": key}
       try:
           response = requests.get(base_url, query_params)
